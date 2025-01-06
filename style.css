@@ -34,6 +34,10 @@ input {
 	height: 20px;
 }
 
+.repository-prev:hover {
+	background-color: #65cdf9;
+}
+
 .add-repositories-wrapper {
 	display: flex;
 	flex-direction: column;
@@ -45,4 +49,21 @@ input {
 	height: 101px;
 	font-size: 24px;
 	background-color: #e27beb;
+	border: 1px solid black;
+}
+
+.add-repository p {
+	margin: 5px;
+}
+
+.remove-repo-btn {
+	border: 0;
+	background-color: #ffffff00;
+	color: red;
+	font-size: 40px;
+	transform: translate(420px, -75px);
+}
+
+.remove-repo-btn:hover {
+	border: 1px solid white;
 }
